@@ -2,17 +2,21 @@ import React from "react";
 import "../scss/index.scss";
 import "../scss/Main.scss";
 import Atom from "../assets/svg/atom-solid.svg";
+import Icon from "../assets/svg/icon-add.svg";
 
 function Main() {
   return (
     <div className={"container"}>
-      <Atom/>
+      <div className={"container__logo-icon"}>
+        <Atom/>
+      </div>
       <div className={"title"}>
         <hr/>
-        <h1 className={"title__h1"}> Список <span className={"title__h1_thin"}> задач </span></h1>
-      </div>
-      <div className={"container__add-icon"}>
-        <div className={"container__add-icon__plus"}/>
+        <h1 className={"title__text"}> Список <span className={"title__text_thin"}> задач </span></h1>
+        <div className={"container__add-icon"}>
+          <Icon/>
+        </div>
+        <p className={"title__text title__text_light"}> Добавить список </p>
       </div>
       <div className={"tasks-slider"}>
         <div className={"task"}>
