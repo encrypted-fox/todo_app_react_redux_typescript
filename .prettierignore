@@ -1,0 +1,10 @@
+.prettierrc
+.babelrc
+.gitignore
+LICENSE
+README.md
+SECURITY.md
+package-lock.json
+package.json
+webpack.config.js
+*.html

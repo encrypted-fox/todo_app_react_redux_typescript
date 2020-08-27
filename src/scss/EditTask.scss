@@ -1,0 +1,31 @@
+@import './variables';
+@import './fonts';
+
+.task {
+  color: $black-color;
+
+  &__title {
+    font-family: 'Roboto Bold', 'sans-serif';
+
+    &_thin {
+      font-family: 'Roboto Thin', 'sans-serif';
+    }
+  }
+
+  &__list {
+  }
+
+  &__list-elem {
+  }
+
+  &__list-elem:checked {
+    color: red;
+    text-decoration: dashed;
+  }
+}
+
+.close-icon {
+}
+
+.tracker-icon {
+}

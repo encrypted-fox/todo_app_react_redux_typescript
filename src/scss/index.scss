@@ -1,0 +1,45 @@
+@import './variables';
+@import './fonts';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: $light-blue-color;
+}
+
+.container {
+  width: 90%;
+  height: 90%;
+  max-width: 250px;
+  max-height: 500px;
+  margin: 20vh auto auto auto;
+  padding: 20px;
+  background: $white-color;
+
+  &__add-icon {
+    background: $white-color;
+
+    &_alternative {
+      background: $red-color;
+    }
+
+    &__plus {
+      fill: $black-color;
+
+      &_alternative {
+        fill: $white-color;
+      }
+    }
+  }
+
+  .logo-icon {
+    width: 20px;
+    margin-bottom: -20px;
+    fill: $black-color;
+  }
+}
+
+

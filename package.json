@@ -1,7 +1,12 @@
 {
   "name": "todo_app",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.2.0",
+  "private": false,
+  "license": "MIT",
+  "author": "encrypted-fox",
+  "repository": {
+    "url": "https://github.com/encrypted-fox/todo_app_react_redux_typescript"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -43,12 +48,15 @@
     "@svgr/webpack": "^5.4.0",
     "css-loader": "^4.2.1",
     "html-webpack-plugin": "^4.3.0",
+    "prettier": "^2.0.5",
+    "react-svg-loader": "^3.0.3",
     "sass": "^1.26.10",
     "sass-loader": "^9.0.3",
     "source-map-loader": "^1.0.2",
     "style-loader": "^1.2.1",
     "svg-url-loader": "^6.0.0",
     "ts-loader": "^8.0.2",
+    "ttf-loader": "^1.0.2",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
     "webpack-hot-middleware": "^2.25.0"
