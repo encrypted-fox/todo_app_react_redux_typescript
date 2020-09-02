@@ -32,7 +32,7 @@
   }
 }
 
-.tasks-slider {
+.task-slider {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -42,7 +42,7 @@
     width: 0;
   }
 
-  .task {
+  .task-list {
     color: $white-color;
     box-sizing: border-box;
     min-width: 120px;
